@@ -1,0 +1,259 @@
+{
+    "Header.Item1": "A propos",
+    "Header.Item2": "Carte",
+    "Header.Item3": "Galerie",
+    "Header.Item4": "Contact",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "CV_Jose_Hernandez_Ingles.pdf",
+  
+    "Banner.Pretitle": "Bonjour .",
+    "Banner.Description": "Bienvenue chez <span class='underline'> Li's </span> à Limoges ! Depuis <span class='underline'> 2 ans </span>, nous vous proposons des sandwiches gourmands et des salades fraîches, préparés avec des ingrédients de qualité et locaux. Que ce soit pour une pause déjeuner rapide ou un repas détendu, notre équipe vous accueille avec le sourire.Merci à nos fidèles clients pour leur soutien. Venez découvrir nos délicieuses spécialités et profitez d'une expérience culinaire conviviale et savoureuse !",
+    "Banner.ActionBtn": "Voir notre menu",
+  
+    "AboutMe.Title": "A propos",
+    "AboutMe.Paragraphs": [
+      "<span class='underline'>Li's Sandwich et Li's Salade </span> sont un restaurant de qualité supérieure, spécialisé dans la création de <span class='underline'> sandwichs, salade savoureux et frais </span>. Nous sommes reconnus pour notre attention particulière aux détails, notre engagement à utiliser uniquement les meilleurs ingrédients et notre service amical et efficace. Nos sandwichs sont préparés à la commande et peuvent être personnalisés pour répondre aux <span class='underline'> goûts et aux besoins de chacun .Chez Li's Sandwich, </span> nous nous efforçons de fournir une expérience culinaire exceptionnelle à nos clients en offrant des options de qualité à un prix abordable.",
+      "<a href='https://www.google.com/maps/search/?api=1&query=12+Rue+Gondinet+87000+LIMOGES+France' target='_blank'><i class='fas fa-map-marker-alt'></i> 12 Rue Gondinet 87000 LIMOGES France</a>",
+      "+33677572022",
+      ""
+    ],
+  
+    "Experience.Title": "Carte",
+    "Experience.Jobs": [
+      {
+        "Tab": "Sandwichs",
+        "Title": "Variété de Sandwichs",
+        "Date": "Ce que nous vous proposons",
+        "Description": [
+          {
+            "text": "Gusto",
+            "img": "/assets/images/Sandwich/sandwich1.jpg",
+            "desc": "Crème, Oignon Confit, Bacon Fumé, Pécorino, oeuf Dur, Roquette"
+
+          },
+          {
+            "text": "Dolce",
+            "img": "/assets/images/Sandwich/sandwich2.jpg",
+            "desc": "Crème, Pesto rosso, Jambon Blanc, Légumes Marinés, Tome du Rilhac, Roquette"
+
+          },
+          {
+            "text": "Paolo",
+            "img": "/assets/images/Sandwich/sandwich3.jpg",
+            "desc": "Crème, Parmessan, Poulet Rôti, Tomates, Oignon, Oeuf Dur, Roquette"
+
+          },
+          {
+            "text": "Chorizo",
+            "img": "/assets/images/Sandwich/sandwich4.jpg",
+            "desc": "Crème, Chèvre Frais, Chorizo, Tomates Séches, Légumes Marinés, Roquette"
+
+          },
+          {
+            "text": "Pastrami",
+            "img": "/assets/images/Sandwich/sandwich5.jpg",
+            "desc": "Petite description du sandwich Mamamia"
+
+          },
+          {
+            "text": "pescatore",
+            "img": "/assets/images/Sandwich/sandwich6.jpg",
+            "desc": "Petite description du sandwich Mamamia"
+
+          }
+        ]
+      },
+      {
+        "Tab": "Salades",
+        "Title": "Variété de Salades",
+        "Date": "Ce que nous vous proposons",
+        "Description": [
+            {
+                "text": "Cesar",
+                "img": "/assets/images/Salades/salade1.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Griega",
+                "img": "/assets/images/Salades/salade2.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Li's",
+                "img": "/assets/images/Salades/salade3.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Mediterranea",
+                "img": "/assets/images/Salades/salade4.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Nicoise",
+                "img": "/assets/images/Salades/salade5.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Tuna",
+                "img": "/assets/images/Salades/salade6.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            }
+        ]
+      },
+      {
+        "Tab": "Pinsas",
+        "Title": "Variété de Pinsas",
+        "Date": "Ce que nous vous proposons ",
+        "Description": [
+            {
+                "text": "Margherita",
+                "img": "/assets/images/Pinsas/pinsa1.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Prosciutto",
+                "img": "/assets/images/Pinsas/pinsa2.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Li's",
+                "img": "/assets/images/Pinsas/pinsa3.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Pinsa",
+                "img": "/assets/images/Pinsas/pinsa4.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Rustica",
+                "img": "/assets/images/Pinsas/pinsa5.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Vegetariana",
+                "img": "/assets/images/Pinsas/pinsa6.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            }
+        ]
+      },
+      {
+        "Tab": "Desserts",
+        "Title": "Variété de Desserts",
+        "Date": "Ce que nous vous proposons",
+        "Description": [
+            {
+                "text": "Muffin",
+                "img": "/assets/images/Dessert/dessert2.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Tiramisu",
+                "img": "/assets/images/Dessert/dessert3.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Tartellete",
+                "img": "/assets/images/Dessert/dessert1.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            }
+        ]
+      },
+      {
+        "Tab": "Boissons",
+        "Title": "Variété de Boissons",
+        "Date": "Ce que nous vous proposons",
+        "Description": [
+            {
+                "text": "Coca Cola",
+                "img": "/assets/images/Boissons/cocacola.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Fanta",
+                "img": "/assets/images/Boissons/fanta.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Dada",
+                "img": "/assets/images/Boissons/dada.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Sanpelegrino",
+                "img": "/assets/images/Boissons/sanpelegrino.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Cristaline",
+                "img": "/assets/images/Boissons/cristaline.png",
+                "desc": "Petite description du sandwich Mamamia"
+
+            },
+            {
+                "text": "Ice Tea",
+                "img": "/assets/images/Boissons/icetea.jpg",
+                "desc": "Petite description du sandwich Mamamia"
+
+            }
+        ]
+      }
+    ],
+  
+    "FeatureProjects.Title": "Galerie",
+    "FeatureProjects.Label": "Photos reseau sociaux",
+    "FeatureProjects.Projects": [
+      {
+        "Title": "Sandwich",
+        "Description": "<span class='underline'>La focaccia </span> est <span class='underline'> un pain italien plat, moelleux et légèrement huileux </span>, souvent agrémenté d'herbes aromatiques comme le romarin ou le thym. Utilisée comme <span class='underline'> base pour un sandwich </span>, la focaccia offre <span class='underline'> une texture douce et aérée </span>, qui contraste agréablement avec <span class='underline'> les ingrédients du sandwich.</span>.",
+        "imgs": [
+          "/assets/images/Sandwich/sandwich1.jpg",
+          "/assets/images/Sandwich/sandwich2.jpg",
+          "/assets/images/Sandwich/sandwich3.jpg",
+          "/assets/images/Sandwich/sandwich4.jpg",
+          "/assets/images/Sandwich/sandwich5.jpg",
+          "/assets/images/Sandwich/sandwich6.jpg"
+        ],
+        "Technologies": ["Gusto, Dolce, Paolo, Chorizo, Pastrami, Pescatore"]
+      },
+      {
+        "Title": "Salade",
+        "Description": "<span class='underline'>Les salades </span> proposées par <span class='underline'> Li's Salade </span> se caractérisent par leur <span class='underline'> fraîcheur </span>, leur <span class='underline'> variété </span> et la  <span class='underline'>qualité des ingrédients </span> utilisés.Toutes les salades de Li's Salade sont servies avec <span class='underline'> une portion généreuse de focaccia maison </span>, ajoutant une <span class='underline'> texture moelleuse </span> et <span class='underline'> savoureuse </span> qui complète parfaitement les ingrédients frais de chaque salade​",
+        "imgs": [
+          "/assets/images/Salades/salade1.jpg",
+          "/assets/images/Salades/salade2.jpg",
+          "/assets/images/Salades/salade3.jpg",
+          "/assets/images/Salades/salade4.jpg",
+          "/assets/images/Salades/salade5.jpg",
+          "/assets/images/Salades/salade6.jpg"
+        ],
+        "Technologies": ["Cesar, Griega, Li's, Mediterranea, Nicoise, Tuna"]
+      }
+    ],
+  
+    "Contact.Title": "Contact",
+    "Contact.Name": "Li's Sandwich et Li's Salade",
+    "Contact.Mailto": "mailto:ose.hdez.palacios@gmail.com",
+    "Contact.Phone": "+34654870112",
+    "Contact.Location": "12 Rue Gondinet 87000 LIMOGES France"
+  }
+  
