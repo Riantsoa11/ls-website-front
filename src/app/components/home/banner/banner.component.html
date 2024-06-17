@@ -1,22 +1,45 @@
 <section class="section banner">
     <div [@bannerTrigger] class="container">
-        <div class="section-box-banner">
-            <div class="content">
-                <div>
-                    <h1>{{"Banner.Pretitle" | translate}}</h1>
-                </div>
-                <div class='banner-title'>
-                    <h2>Li's Sandwich.</h2>
-                    <h4>Découvrez la focaccia avec nos sandwichs gourmands</h4>
-                </div>
-                <div class='banner-description'>
-                    <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
+        <div class="row">
+            <div class="col-12 col-md-6 mb-4 mb-md-0">  
+                <div class="section-box-banner">
+                    <div class="content">
+                        <div>
+                            <h1>{{"Banner.Pretitle" | translate}}</h1>
+                        </div>
+                        <div class='banner-title'>
+                            <h3>Li's Sandwich.</h3>
+                            <h5>Découvrez la focaccia avec nos sandwichs gourmands</h5>
+                        </div>
+                        <div class='banner-description'>
+                            <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
+                        </div>
+                    </div>
+                    <div class="div-btn-banner">
+                        <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:andresjosehr@gmail.com" target="_black" class="main-btn">
+                            {{"Banner.ActionBtn" | translate}}
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="div-btn-banner">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:andresjosehr@gmail.com" target="_black" class="main-btn">
-                    {{"Banner.ActionBtn" | translate}}
-                </a>
+            <div class="col-12 col-md-6">
+                <div class="section-box-banner">
+                    <div class="content">
+                        <div class='banner.horaire' style="text-align: center;">
+                            <h4>{{"Banner.Horaire" | translate}}</h4>
+                        </div>
+                        <div class='banner-description'>
+                            <p [innerHTML]='"Banner.HoraireDescriptionLundi" | translate' class="mt-4"></p>
+                            <p [innerHTML]='"Banner.HoraireDescriptionMardi" | translate' class="mt-4"></p>
+                            <p [innerHTML]='"Banner.HoraireDescriptionMercredi" | translate' class="mt-4"></p>
+                            <p [innerHTML]='"Banner.HoraireDescriptionJeudi" | translate' class="mt-4"></p>
+                            <p [innerHTML]='"Banner.HoraireDescriptionVendredi" | translate' class="mt-4"></p>
+                            <p [innerHTML]='"Banner.HoraireDescriptionSamedi" | translate' class="mt-4"></p>
+                            <p [innerHTML]='"Banner.HoraireDescriptionDimanche" | translate' class="mt-4"></p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>

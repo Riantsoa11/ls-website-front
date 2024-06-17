@@ -4,11 +4,19 @@
   "Header.Item3": "Gallery",
   "Header.Item4": "Contact",
   "Header.cvBtn": "Resume",
-  "Header.cvName": "CV_Jose_Hernandez_Ingles.pdf",
 
   "Banner.Pretitle": "Hello .",
   "Banner.Description": "Welcome to <span class='underline'> Li's </span> in Limoges! For <span class='underline'> 2 years </span>, we have been offering you gourmet sandwiches and salads fresh, prepared with quality and local ingredients Whether for a quick lunch break or a relaxed meal, our team welcomes you with a smile. Thank you to our loyal customers for their support. Come discover our delicious specialties and enjoy. a friendly and tasty culinary experience!", 
   "Banner.ActionBtn": "See our menu",
+
+  "Banner.Horaire": "Opening hours",
+    "Banner.HoraireDescriptionLundi": "Monday: 11:30 am - 2:00 pm",
+    "Banner.HoraireDescriptionMardi": "Tuesday: 11:30 am - 2:00 pm",
+    "Banner.HoraireDescriptionMercredi": "Wednesday: 11:30 am - 2:00 pm",
+    "Banner.HoraireDescriptionJeudi": "Thursday: 11:30 AM - 2:00 PM <br> 6:00 PM - 9:00 PM",
+    "Banner.HoraireDescriptionVendredi": "Friday: 11:30 am - 2:00 pm <br> 6:00 pm - 9:00 pm",
+    "Banner.HoraireDescriptionSamedi": "Saturday: 11:30 am - 2:00 pm",
+    "Banner.HoraireDescriptionDimanche": "Sunday: Closed",
 
   "AboutMe.Title": "About",
   "AboutMe.Paragraphs": [

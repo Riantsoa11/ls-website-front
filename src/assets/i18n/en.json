@@ -4,12 +4,20 @@
     "Header.Item3": "Galerie",
     "Header.Item4": "Contact",
     "Header.cvBtn": "Resume",
-    "Header.cvName": "CV_Jose_Hernandez_Ingles.pdf",
   
     "Banner.Pretitle": "Bonjour .",
     "Banner.Description": "Bienvenue chez <span class='underline'> Li's </span> à Limoges ! Depuis <span class='underline'> 2 ans </span>, nous vous proposons des sandwiches gourmands et des salades fraîches, préparés avec des ingrédients de qualité et locaux. Que ce soit pour une pause déjeuner rapide ou un repas détendu, notre équipe vous accueille avec le sourire.Merci à nos fidèles clients pour leur soutien. Venez découvrir nos délicieuses spécialités et profitez d'une expérience culinaire conviviale et savoureuse !",
     "Banner.ActionBtn": "Voir notre menu",
-  
+      
+    "Banner.Horaire": "Horaires d'ouverture",
+    "Banner.HoraireDescriptionLundi": "Lundi: 11:30 - 14:00",
+    "Banner.HoraireDescriptionMardi": "Mardi: 11:30 - 14:00",
+    "Banner.HoraireDescriptionMercredi": "Mercredi: 11:30 - 14:00",
+    "Banner.HoraireDescriptionJeudi": "Jeudi: 11:30 - 14:00 <br> 18:00 - 21:00",
+    "Banner.HoraireDescriptionVendredi": "Vendredi: 11:30 - 14:00 <br> 18:00 - 21:00",
+    "Banner.HoraireDescriptionSamedi": "Samedi: 11:30 - 14:00",
+    "Banner.HoraireDescriptionDimanche": "Dimanche: Fermé",
+ 
     "AboutMe.Title": "A propos",
     "AboutMe.Paragraphs": [
       "<span class='underline'>Li's Sandwich et Li's Salade </span> sont un restaurant de qualité supérieure, spécialisé dans la création de <span class='underline'> sandwichs, salade savoureux et frais </span>. Nous sommes reconnus pour notre attention particulière aux détails, notre engagement à utiliser uniquement les meilleurs ingrédients et notre service amical et efficace. Nos sandwichs sont préparés à la commande et peuvent être personnalisés pour répondre aux <span class='underline'> goûts et aux besoins de chacun .Chez Li's Sandwich, </span> nous nous efforçons de fournir une expérience culinaire exceptionnelle à nos clients en offrant des options de qualité à un prix abordable.",
