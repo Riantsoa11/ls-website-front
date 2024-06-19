@@ -17,8 +17,7 @@
     "AboutMe.Paragraphs": [
       "<span class='underline'>Li's Sandwich et Li's Salade </span> sont un restaurant de qualité supérieure, spécialisé dans la création de <span class='underline'> sandwichs, salade savoureux et frais </span>. Nous sommes reconnus pour notre attention particulière aux détails, notre engagement à utiliser uniquement les meilleurs ingrédients et notre service amical et efficace. Nos sandwichs sont préparés à la commande et peuvent être personnalisés pour répondre aux <span class='underline'> goûts et aux besoins de chacun .Chez Li's Sandwich, </span> nous nous efforçons de fournir une expérience culinaire exceptionnelle à nos clients en offrant des options de qualité à un prix abordable.",
       "<a href='https://www.google.com/maps/search/?api=1&query=12+Rue+Gondinet+87000+LIMOGES+France' target='_blank'><i class='fas fa-map-marker-alt'></i> 12 Rue Gondinet 87000 LIMOGES France</a>",
-      "+33677572022",
-      ""
+      "<a href='tel:+33677572022'><i class='fas fa-phone'></i> +33 6 77 57 20 22</a>"
     ],
   
     "Experience.Title": "Carte",

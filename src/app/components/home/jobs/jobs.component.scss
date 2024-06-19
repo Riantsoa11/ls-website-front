@@ -1,136 +1,154 @@
 @import "./../../../../variables.scss";
 
-::ng-deep .jobs .jobs-tabs {
-    display: flex;
-
-    .tab-content {
-        margin-left: 38px;
-    }
-
-    ul {
-        display: block;
-        width: 114.33px;
-        border: none;
-    }
-
-    a.active {
-        background-color: $LightNavy !important;
-        color: $Green !important;
-        border-color: transparent !important;
-        border-radius: 0px;
-    }
-
-    a:hover {
-        background-color: $LightNavy !important;
-        color: $Green !important;
-        border-color: transparent !important;
-        border-radius: 0px;
-    }
-
-    a {
-        display: inline-block;
-        text-decoration: none;
-        text-decoration-skip-ink: auto;
-        color: inherit;
-        position: relative;
-        transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        width: 100%;
-        background-color: transparent;
-        height: 42px;
-        padding: 0 20px 2px;
-        text-align: left;
-        white-space: nowrap;
-        font-family: $CodeFont;
-        font-size: 13px;
-        color: $Slate;
-    }
-
-    li {
-        border-left: 2px solid $LightestNavy;
-        border-left-width: 2px;
-        border-left-style: solid;
-        border-left-color: rgb(48, 60, 85);
-    }
-}
-
-.jobs {
-    max-width: 700px;
+/* Styles pour la section des emplois */
+.section#jobs {
+    max-width: 100%;
     margin: auto;
 
-    .title-tab-content {
-        color: $LightestSlate;
-        font-size: 22px;
-        font-weight: 500;
-        margin-bottom: 5px;
-
-        .company-tab-content {
-            color: $Green;
-        }
-    }
-
-    .job-time {
-        font-family: $CodeFont;
-        font-size: 13px;
-        font-weight: normal;
-        letter-spacing: 0.05em;
-        color: $LightSlate;
-        margin-bottom: 30px;
-    }
-    
-    .job-description {
-        margin-bottom: 20px;
-    }
-
-    .image-description-container {
+    .container-jobs {
+        width: 1110px;
+        height: 903.8px;
         display: flex;
-        align-items: flex-start;
-        margin-bottom: 10px;
+        flex-wrap: wrap;
+        gap: 20px; /* Espacement entre les éléments de la grille */
 
-        .job-image {
-            max-width: 150px;
-            height: auto;
-            margin-right: 20px;
-            border: 1px solid $LightestNavy;
-            border-radius: 5px;
+        .list-menu {
+            flex: 1;
+            max-width: 25%; /* Ajustez cette largeur selon vos besoins */
         }
 
-        .description-text {
-            margin-left: 20px; // Ajoutez cette ligne pour décaler la description vers la droite
-            p {
-                margin: 0;
-                font-size: 16px;
-                color: $LightSlate;
+        .composant-menu {
+            flex: 1;
+            max-width: 75%; /* Ajustez cette largeur selon vos besoins */
+        }
+    
+    }
 
-                &.sandwich-description {
-                    margin-top: 10px;
-                    font-style: italic;
-                    color: $Green;
+    .jobs {
+        .title-tab-content {
+            color: $LightestSlate;
+            font-size: 22px;
+            font-weight: 500;
+            margin-bottom: 5px;
+
+            .company-tab-content {
+                color: $Green;
+            }
+        }
+        a.active {
+            background-color: $LightNavy !important;
+            color: $Green !important;
+            border-color: transparent !important;
+            border-radius: 0px;
+        }
+        
+        a:hover {
+            background-color: $LightNavy !important;
+            color: $Green !important;
+            border-color: transparent !important;
+            border-radius: 0px;
+        }
+        
+        a {
+            display: inline-block;
+            text-decoration: none;
+            text-decoration-skip-ink: auto;
+            color: inherit;
+            position: relative;
+            transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            background-color: transparent;
+            height: 42px;
+            padding: 0 20px 2px;
+            text-align: left;
+            white-space: nowrap;
+            font-family: $CodeFont;
+            font-size: 13px;
+            color: $Slate;
+        }
+        
+
+        .job-time {
+            font-family: $CodeFont;
+            font-size: 13px;
+            font-weight: normal;
+            letter-spacing: 0.05em;
+            color: $LightSlate;
+            margin-bottom: 30px;
+        }
+        
+        .job-description {
+            margin-bottom: 20px;
+        }
+
+        .job-description-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px; /* Espacement entre les éléments de la grille */
+            margin-bottom: 20px;
+        }
+
+        .image-description-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .job-image {
+                width: 100%; /* Pour s'adapter à la taille de la grille */
+                height: 150px; /* Hauteur fixe pour uniformiser les images */
+                object-fit: cover; /* Pour couvrir l'image tout en gardant le rapport de l'image */
+                margin-bottom: 10px;
+                border: 1px solid $LightestNavy;
+                border-radius: 5px;
+            }
+
+            .description-text {
+                text-align: center;
+                p {
+                    margin: 0;
+                    font-size: 16px;
+                    color: $LightSlate;
+
+                    &.sandwich-description {
+                        margin-top: 10px;
+                        font-style: italic;
+                        color: $Green;
+                    }
                 }
             }
         }
     }
-}
 
-@media (max-width: 768px) {
-    .jobs {
-        .job-description {
-            padding: 0px;
+    @media (min-width: 992px) and (max-width: 1300px){
+        .container-jobs {
+            width: 100%;
+            max-width: 1110px;
+            height: auto;
+        }
+
+        .list-menu {
+            max-width: 35%; /* Ajustez cette largeur selon vos besoins */
+        }
+
+        .composant-menu {
+            max-width: 65%; /* Ajustez cette largeur selon vos besoins */
         }
     }
-    ::ng-deep .jobs-tabs {
-        display: block !important;
 
-        .tab-content {
-            margin-left: 0px !important;
+    @media (max-width: 768px) {
+        .container-jobs {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            flex-direction: column;
         }
 
-        ul {
-            display: block;
-            width: 100% !important;
-            margin-bottom: 50px;
+        .list-menu, .composant-menu {
+            max-width: 100%;
         }
     }
 }

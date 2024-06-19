@@ -1,45 +1,59 @@
 <section class="section" id="jobs">
   <div class="container jobs">
     <div class="section-box">
-      <div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
-        <h3 class="e-font section-title">
-          <span class="code-font n-section-title">02.</span>
-          {{ "Experience.Title" | translate }}
-        </h3>
+      <!-- Première div : contient le titre de la section -->
+      <div class="div1">
+        <div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
+          <h3 class="e-font section-title">
+            <span class="code-font n-section-title">02.</span>
+            {{ "Experience.Title" | translate }}
+          </h3>
+        </div>
       </div>
-      <div class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
-        <ul
-          ngbNav
-          #nav="ngbNav"
-          [(activeId)]="active"
-          orientation="vertical"
-          class="nav-tabs jobs-tabs"
-        >
-          <li
-            *ngFor="let job of 'Experience.Jobs' | translate; let i = index"
-            [title]="job.Tab"
-            [ngbNavItem]="i"
-          >
-            <a ngbNavLink>{{ job.Tab }}</a>
-            <ng-template ngbNavContent>
-              <h4 class="title-tab-content">
-                {{ job.Title }} |
-                <span class="company-tab-content">{{ job.Tab }}</span>
-              </h4>
-              <h5 class="job-time">{{ job.Date }}</h5>
-              <div *ngFor="let jobDescriptionParagraph of job.Description; let i = index" class="job-description">
-                <div class="image-description-container">
-                  <img *ngIf="jobDescriptionParagraph.img" [src]="jobDescriptionParagraph.img" alt="Job Image" class="job-image">
-                  <div class="description-text">
-                    <p [innerHTML]="jobDescriptionParagraph.text | translate"></p>
-                    <p class="sandwich-description">{{ jobDescriptionParagraph.desc }}</p>
+
+      <!-- Conteneur pour mettre les deux div à côté -->
+      <div class="container-jobs">
+        <!-- Deuxième div : contient les onglets des emplois -->
+        <div class="list-menu">
+          <div class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
+            <ul
+              ngbNav
+              #nav="ngbNav"
+              [(activeId)]="active"
+              orientation="vertical"
+              class="nav-tabs jobs-tabs"
+            >
+              <li
+                *ngFor="let job of 'Experience.Jobs' | translate; let i = index"
+                [title]="job.Tab"
+                [ngbNavItem]="i"
+              >
+                <a ngbNavLink>{{ job.Tab }}</a>
+                <ng-template ngbNavContent>
+                  <h4 class="title-tab-content">
+                    {{ job.Title }} |
+                    <span class="company-tab-content">{{ job.Tab }}</span>
+                  </h4>
+                  <h5 class="job-time">{{ job.Date }}</h5>
+                  <div class="job-description job-description-grid">
+                    <div *ngFor="let jobDescriptionParagraph of job.Description; let i = index" class="image-description-container">
+                      <img *ngIf="jobDescriptionParagraph.img" [src]="jobDescriptionParagraph.img" alt="Job Image" class="job-image">
+                      <div class="description-text">
+                        <p [innerHTML]="jobDescriptionParagraph.text | translate"></p>
+                        <p class="sandwich-description">{{ jobDescriptionParagraph.desc }}</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </ng-template>
-          </li>
-        </ul>
-        <div [ngbNavOutlet]="nav" class="mt-2"></div>
+                </ng-template>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Troisième div : contient le contenu des onglets -->
+        <div class="composant-menu">
+          <div [ngbNavOutlet]="nav" class="mt-2"></div>
+        </div>
       </div>
     </div>
   </div>
