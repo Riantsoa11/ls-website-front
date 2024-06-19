@@ -1,17 +1,17 @@
 <section class="section banner">
     <div [@bannerTrigger] class="container">
         <div class="row">
-            <div class="col-12 col-md-6 mb-4 mb-md-0">  
-                <div class="section-box-banner">
+            <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <div class="section-box-banner banner-content">
                     <div class="content">
                         <div>
                             <h1>{{"Banner.Pretitle" | translate}}</h1>
                         </div>
-                        <div class='banner-title'>
+                        <div class="banner-title">
                             <h3>Li's Sandwich.</h3>
                             <h5>Découvrez la focaccia avec nos sandwichs gourmands</h5>
                         </div>
-                        <div class='banner-description'>
+                        <div class="banner-description">
                             <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
                         </div>
                     </div>
@@ -21,26 +21,21 @@
                         </a>
                     </div>
                 </div>
+                
             </div>
             <div class="col-12 col-md-6">
-                <div class="section-box-banner">
+                <div class="section-box-banner banner-horaire-content">
                     <div class="content">
-                        <div class='banner.horaire' style="text-align: center;">
+                        <div class="banner-horaire" style="text-align: center;">
                             <h4>{{"Banner.Horaire" | translate}}</h4>
                         </div>
-                        <div class='banner-description'>
-                            <p [innerHTML]='"Banner.HoraireDescriptionLundi" | translate' class="mt-4"></p>
-                            <p [innerHTML]='"Banner.HoraireDescriptionMardi" | translate' class="mt-4"></p>
-                            <p [innerHTML]='"Banner.HoraireDescriptionMercredi" | translate' class="mt-4"></p>
-                            <p [innerHTML]='"Banner.HoraireDescriptionJeudi" | translate' class="mt-4"></p>
-                            <p [innerHTML]='"Banner.HoraireDescriptionVendredi" | translate' class="mt-4"></p>
-                            <p [innerHTML]='"Banner.HoraireDescriptionSamedi" | translate' class="mt-4"></p>
-                            <p [innerHTML]='"Banner.HoraireDescriptionDimanche" | translate' class="mt-4"></p>
+                        <div class="banner-description">
+                            <p [innerHTML]='"Banner.HoraireDescriptionHoraire" | translate' class="mt-4"></p>            
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+

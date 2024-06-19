@@ -10,13 +10,8 @@
     "Banner.ActionBtn": "Voir notre menu",
       
     "Banner.Horaire": "Horaires d'ouverture",
-    "Banner.HoraireDescriptionLundi": "Lundi: 11:30 - 14:00",
-    "Banner.HoraireDescriptionMardi": "Mardi: 11:30 - 14:00",
-    "Banner.HoraireDescriptionMercredi": "Mercredi: 11:30 - 14:00",
-    "Banner.HoraireDescriptionJeudi": "Jeudi: 11:30 - 14:00 <br> 18:00 - 21:00",
-    "Banner.HoraireDescriptionVendredi": "Vendredi: 11:30 - 14:00 <br> 18:00 - 21:00",
-    "Banner.HoraireDescriptionSamedi": "Samedi: 11:30 - 14:00",
-    "Banner.HoraireDescriptionDimanche": "Dimanche: Fermé",
+    "Banner.HoraireDescriptionHoraire": "<u>Lundi</u> : 11:30 - 14:00 <br> <u>Mardi</u> : 11:30 - 14:00 <br> <u>Mercredi</u> : 11:30 - 14:00 <br> <u>Jeudi</u> : 11:30 - 14:00 <br> 18:00 - 21:00 <br> <u>Vendredi</u> : 11:30 - 14:00 <br> 18:00 - 21:00 <br> <u>Samedi</u> : 11:30 - 14:00 <br> <u>Dimanche</u> : Fermé",
+    
  
     "AboutMe.Title": "A propos",
     "AboutMe.Paragraphs": [

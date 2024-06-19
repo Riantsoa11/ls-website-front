@@ -10,14 +10,8 @@
   "Banner.ActionBtn": "See our menu",
 
   "Banner.Horaire": "Opening hours",
-    "Banner.HoraireDescriptionLundi": "Monday: 11:30 am - 2:00 pm",
-    "Banner.HoraireDescriptionMardi": "Tuesday: 11:30 am - 2:00 pm",
-    "Banner.HoraireDescriptionMercredi": "Wednesday: 11:30 am - 2:00 pm",
-    "Banner.HoraireDescriptionJeudi": "Thursday: 11:30 AM - 2:00 PM <br> 6:00 PM - 9:00 PM",
-    "Banner.HoraireDescriptionVendredi": "Friday: 11:30 am - 2:00 pm <br> 6:00 pm - 9:00 pm",
-    "Banner.HoraireDescriptionSamedi": "Saturday: 11:30 am - 2:00 pm",
-    "Banner.HoraireDescriptionDimanche": "Sunday: Closed",
-
+"Banner.HoraireDescriptionHoraire": "<u>Monday</u> : 11:30 am - 2:00 pm <br> <u>Tuesday</u> : 11:30 am - 2:00 pm <br> <u>Wednesday</u> : 11:30 am - 2:00 pm <br> <u>Thursday</u> : 11:30 AM - 2:00 PM <br> 6:00 PM - 9:00 PM <br> <u>Friday</u> : 11:30 am - 2:00 pm <br> 6:00 pm - 9:00 pm <br> <u>Saturday</u> : 11:30 am - 2:00 pm <br> <u>Sunday</u> : Closed",
+    
   "AboutMe.Title": "About",
   "AboutMe.Paragraphs": [
     "<span class='underline'>Li's Sandwich and Li's Salad </span> are a premium restaurant, specializing in creating tasty and fresh <span class='underline'> sandwiches, salads </span>. We are known for our careful attention to detail, our commitment to using only the finest ingredients and our friendly, efficient service. Our sandwiches are made to order and can be customized to meet <span class='underline'> tastes and needs. of each.At Li's Sandwich, we strive to provide an exceptional dining experience to our customers by offering quality options at an affordable price.",  
