@@ -1,78 +1,89 @@
-@import "./../../../../variables.scss";
+@import "./../../../../variables.scss"; // Make sure this path is correct
 
-.contact{
+.contact {
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+  height: 100vh;
+  display: table;
 
-    margin: 0 auto;
-    max-width: 1000px;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-    height: 100vh;
-    display: table;
+  .container {
+    display: table-cell;
+    vertical-align: middle;
+  }
 
-    .container{
-        display: table-cell;
-        vertical-align: middle;
-    }
+  .contact-title {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: $LightestSlate;
+    margin: auto;
+    width: fit-content;
+  }
 
-    .contact-title{
+  .contact-description {
+    font-size: 1em;
+    color: $LightestSlate;
+    margin-bottom: 30px;
+  }
 
-        position: relative;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        white-space: nowrap;
-        font-size: 60px;
-        font-weight: 600;
-        color: $LightestSlate;
-        margin: auto;
-        width: fit-content;
-    }
-    .contact-pre-title{
-        position: relative;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        margin: 10px 0 40px;
-        width: 100%;
-        white-space: nowrap;
-        font-size: 32px;
-        display: block;
+  .contact-methods {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .contact-method {
+      flex: 1;
+      margin: 20px;
+      max-width: 300px;
+      text-align: center;
+
+      i {
+        font-size: 2em;
         color: $Green;
-        font-size: 16px;
-        font-family: $CodeFont;
-        font-weight: normal;
-        margin-bottom: 20px;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: center;
-    }
+      }
 
+      h5 {
+        font-size: 1.25em;
+        margin: 10px 0;
+      }
+
+      p {
+        font-size: 1em;
+        color: $LightSlate;
+        margin: 5px 0;
+      }
+
+      a {
+        color: $Green;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 
-@media (max-width: 768px){
-    
-    .contact{
-        height: 100vh;
-        padding: 0 !important;
-        margin: 0 auto !important;
-        display: table;
+@media (max-width: 768px) {
+  .contact {
+    height: 100vh;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    display: table;
 
-        .container{
-            display: table-cell;
-            vertical-align: middle;
-        }
+    .container {
+      display: table-cell;
+      vertical-align: middle;
     }
+
+    .contact-methods {
+      flex-direction: column;
+
+      .contact-method {
+        margin: 10px auto;
+        max-width: 90%;
+      }
+    }
+  }
 }

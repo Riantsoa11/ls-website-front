@@ -1,34 +1,36 @@
 <section class="section" id="contact">
   <div class="container contact">
     <div class="section-box">
-      <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
-        <h3 class="contact-pre-title big-subtitle">
-          05. {{ "Contact.Pretitle" | translate }}
-        </h3>
-        <h4 class="e-font contact-title big-title">
+      <!-- Partie gauche : Titre et description -->
+      <div class="left-part" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="e-font contact-title big-title">
           {{ "Contact.Title" | translate }}
-        </h4>
+        </h2>
+        <p class="contact-description">
+          {{ "Contact.Description" | translate }}
+        </p>
       </div>
-      <p data-aos="fade-up" data-aos-duration="1000">
-        {{ "Contact.Content" | translate }}
-      </p>
-      <div class="mt-5">
-        <a
-          (click)="
-            analyticsService.sendAnalyticEvent(
-              'click_send_mail',
-              'contact',
-              'email'
-            )
-          "
-          href="mailto:andresjosehr@gmail.com"
-          target="_blank"
-          class="main-btn"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          {{ "Contact.Btn" | translate }}
-        </a>
+      
+      <!-- Partie droite : Méthodes de contact -->
+      <div class="right-part" data-aos="fade-up" data-aos-duration="1000">
+        <div class="contact-methods">
+          <div class="contact-method">
+            <i class="fas fa-phone"></i>
+            <h5>Par téléphone</h5>
+            <p>Appelez-nous au : +33 (0) 6 77 57 20 22</p>
+            <p>(du lundi au samedi de 9h à 18h)</p>
+          </div>
+          <div class="contact-method">
+            <i class="fab fa-instagram"></i>
+            <h5>Par instagram</h5>
+            <p>Posez-nous toutes vos questions en cliquant sur le logo instagram</p>
+          </div>
+          <div class="contact-method">
+            <i class="fas fa-envelope"></i>
+            <h5>Par mail</h5>
+            <p>Contactez-nous à l'adresse mail : <a href="mailto:contact@exakids.com">contact.com</a></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
