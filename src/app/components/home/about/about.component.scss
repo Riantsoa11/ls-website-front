@@ -5,15 +5,17 @@
     .about-description{
         margin-top: 30px;
         max-width: 480px;
+        color: #0a192f
     }
 
     .about-img-container{
         width: 324px;
         margin: auto;
+        color: #ffc300 !important;
 
         &:after{
             content: '';
-            border: 2px solid $Green;
+            border: 2px solid  #ffc300;
             z-index: 0;
             display: block;
             position: relative;
@@ -55,7 +57,7 @@
             content: '▹';
             position: absolute;
             left: 0;
-            color: $Green;
+            color: #bc4749;
             font-size: 14px;
             line-height: 12px;
         }

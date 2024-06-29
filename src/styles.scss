@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background-color: $Navy;
+  background-color:#f9f7f3;
   color: $Slate !important;
   line-height: 1.3;
   font-family: $MainFont;
@@ -17,7 +17,7 @@ body {
   padding: 130px 0;
 }
 .section {
-  background: $Navy;
+  background: #f9f7f3;
 }
 
 .code-font {
@@ -43,7 +43,7 @@ body {
   white-space: nowrap;
   font-size: 32px;
   font-weight: 600;
-  color: $LightestSlate;
+  color: hsl(359, 47%, 51%);
   font-family: $MainFont;
   margin: 0 0 10px 0;
 
@@ -51,7 +51,7 @@ body {
     margin-right: 10px;
     font-family: $CodeFont;
     font-weight: normal;
-    color: $Green;
+    color: #bc4749;
     font-size: 20px;
     position: relative;
     bottom: 4px;
@@ -62,7 +62,7 @@ body {
     display: block;
     height: 1px;
     width: 300px;
-    background-color: $LightestNavy;
+    background-color: #bc4749;
     position: relative;
     top: -5px;
     margin-left: 20px;
@@ -70,9 +70,9 @@ body {
 }
 
 .main-btn {
-  color: $Green;
+  color: #ffc300;
   background-color: transparent;
-  border: 1px solid $Green;
+  border: 1px solid #ffc300;
   border-radius: 3px;
   font-size: 13px;
   font-family: $CodeFont;
@@ -87,7 +87,7 @@ body {
   &:hover,
   &:focus,
   &:active {
-    background-color: rgba(100, 255, 218, 0.07);
+    background-color: hsla(57, 90%, 46%, 0.07);
     outline: none;
   }
 }
@@ -105,7 +105,7 @@ a {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  color: $Green !important;
+  color: #bc4749 !important;
 }
 .underline:after {
   background: none repeat scroll 0 0 transparent;
@@ -115,7 +115,7 @@ a {
   height: 1px;
   left: 50%;
   position: absolute;
-  background: $Green;
+  background: #bc4749;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0%;
 }

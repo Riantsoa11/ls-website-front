@@ -26,25 +26,25 @@
 
     .jobs {
         .title-tab-content {
-            color: $LightestSlate;
+            color: #bc4749;
             font-size: 22px;
             font-weight: 500;
             margin-bottom: 5px;
 
             .company-tab-content {
-                color: $Green;
+                color: #ffc300;
             }
         }
         a.active {
-            background-color: $LightNavy !important;
-            color: $Green !important;
+            background-color: #bc4749 !important;
+            color: #ffc300 !important;
             border-color: transparent !important;
             border-radius: 0px;
         }
         
         a:hover {
-            background-color: $LightNavy !important;
-            color: $Green !important;
+            background-color: #bc4749 !important;
+            color: #ffc300 !important;
             border-color: transparent !important;
             border-radius: 0px;
         }
@@ -67,7 +67,7 @@
             white-space: nowrap;
             font-family: $CodeFont;
             font-size: 13px;
-            color: $Slate;
+            color: #0a192f;
         }
         
 
@@ -76,7 +76,7 @@
             font-size: 13px;
             font-weight: normal;
             letter-spacing: 0.05em;
-            color: $LightSlate;
+            color: #ffc300;
             margin-bottom: 30px;
         }
         
@@ -102,7 +102,7 @@
                 height: 150px; /* Hauteur fixe pour uniformiser les images */
                 object-fit: cover; /* Pour couvrir l'image tout en gardant le rapport de l'image */
                 margin-bottom: 10px;
-                border: 1px solid $LightestNavy;
+                border: 1px solid #ffc300;
                 border-radius: 5px;
             }
 
@@ -111,12 +111,12 @@
                 p {
                     margin: 0;
                     font-size: 16px;
-                    color: $LightSlate;
+                    color: #0a192f;
 
                     &.sandwich-description {
                         margin-top: 10px;
                         font-style: italic;
-                        color: $Green;
+                        color: #bc4749;
                     }
                 }
             }
